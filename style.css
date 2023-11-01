@@ -1,3 +1,24 @@
-body{
-    
+header{
+    height: 104px;
+    background-color: #171d25;
+}
+
+#logo {
+    width: 175px;
+    height: 45px;
+}
+
+.content{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    display: flex;
+    height: 104px;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
 }
