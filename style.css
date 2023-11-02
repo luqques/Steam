@@ -1,4 +1,8 @@
-header{
+* {
+    font-family: sans-serif !important;
+}
+
+header {
     height: 104px;
     background-color: #171d25;
 }
@@ -8,17 +12,46 @@ header{
     height: 45px;
 }
 
-.content{
+.content {
     width: 940px;
     margin: 0 auto;
 }
 
-.header-logo{
+.header-logo,
+.header-menu {
     display: flex;
     height: 104px;
     align-items: center;
 }
 
-.flex{
+.flex {
     display: flex;
 }
+
+#header-menu-list {
+    color: white;
+    display: flex;
+}
+
+#header-menu-list li {
+    margin: 0 5px;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    margin-bottom: -4px;
+}
+
+#header-menu-list li:hover {
+    border-color: white;
+}
+
+#header-menu-list .active {
+    color: #1a9fff;
+    border-color: #1a9fff;
+}
+
+#banner {
+    height: 453px;
+    background: url".assets/images/league-of-legends-1060x596.jpeg";
+    background-repeat: no-repeat;
+}
+
