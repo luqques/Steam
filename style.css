@@ -51,7 +51,7 @@ header {
 
 #banner {
     height: 453px;
-    background: url".assets/images/league-of-legends-1060x596.jpeg";
+    background: url(.assets/images/game-picture.jpg) black;
     background-repeat: no-repeat;
 }
 
