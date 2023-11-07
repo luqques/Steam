@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo(a) Steam</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href=".assets\line-awesome\1.3.0\css\line-awesome.min.css">
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bem-vindo(a) ao Steam</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/line-awesome/css/line-awesome.css">
+  </head>
+  <body>
     <header>
-        <div class="content flex">
-            <div class="header-logo">
-                <img id="logo" src="./assets/images/logo_steam.svg" alt="Logo Steam">
-            </div>
-
-            <div class="header-menu">
-                <ul id="header-menu-list">
-                    <li class="active">Loja</li>
-                    <li>Comunidade</li>
-                    <li>Sobre</li>
-                    <li>Suporte</li>
-                </ul>
-            </div>
-            <div class="header login">
-                <a id="btn-install">
-                    <i class="las la-american-sign-language-interpreting" style="color: aliceblue;"></i>
-                </a>
-            </div>
+      <div class="content flex">
+        <div class="header-logo">
+          <img
+            id="logo"
+            src="./assets/images/logo_steam.svg"
+            alt="Logo steam"
+          />
         </div>
+        <div class="header-menu flex-grow" style="flex-grow: 1;">
+            <ul id="header-menu-list">
+                <li class="active">Loja</li>
+                <li>Comunidade</li>
+                <li>Sobre
+                  <ul class="header-menu-list-submenu">
+                    <li>Opção 4</li>
+                    <li>Opção 5</li>
+                    <li>Opção 6</li>
+                  </ul>
+                </li>
+                <li>
+                  Suporte
+                  <ul class="header-menu-list-submenu">
+                    <li>Opção 1</li>
+                    <li>Opção 2</li>
+                    <li>Opção 3</li>
+                  </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header-login">
+          <a id="btn-install">
+            Instale o Steam
+          </a>
+          <ul id="header-login-list">
+            <li class="br-1">Iniciar Sessão</li>
+            <li>Idioma</li>
+          </ul>
+        </div>
+      </div>
     </header>
     <section id="banner">
     </section>
-</body>
-
+  </body>
 </html>
