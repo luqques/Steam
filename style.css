@@ -31,6 +31,7 @@ header {
 #header-menu-list {
     color: white;
     display: flex;
+    cursor: pointer;
 }
 
 #header-menu-list li {
@@ -49,9 +50,29 @@ header {
     border-color: #1a9fff;
 }
 
+#header-login-list li {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.4);
+    margin-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#btn-install {
+    background-color: #5c7e0f;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 11px;
+    padding: 4px 9px;
+    cursor: pointer;
+    transition: 1s;
+}
+
 #banner {
     height: 453px;
-    background: url(.assets/images/game-picture.jpg) black;
+    background: url(".assets/images/game-picture.jpeg") #000;
     background-repeat: no-repeat;
+    background-position: top center;
+    background-size: fill;
 }
 
