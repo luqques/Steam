@@ -1,2 +1,2 @@
 # Steam
-Réplica da Steam no HTML e CSS
+Réplica da Steam feita no HTML e CSS
